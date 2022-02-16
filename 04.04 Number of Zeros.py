@@ -1,16 +1,8 @@
-# x = int(input('Enter N: '))
+x = int(input('Enter N: '))
+count = 0
+for i in range(x):
+    a = int(input('Enter number: '))
+    if (a == 0):
+        count = count + 1
 
-# for i in range(x):
-a = (int(input('Enter number: ')))
-
-counter = 0
-for i in range(a):
-    if a == 0:
-        counter += 1
-print('Number of zeros: {}'.format(counter))
-
-# num_zeroes = 0
-# for i in range(int(input())):
-# if int(input()) == 0:
-# num_zeroes += 1
-# print(num_zeroes)
+print("Number of zeros:",count)

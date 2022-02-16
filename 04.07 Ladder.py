@@ -1,8 +1,9 @@
 n = int(input("Enter a number: "))
-x = 0
-lst = []
+a = 0
+b = 1
 
 for x in range (n):
-  x +=1
-  lst.append(x)
-  print(''.join([str(x) for x in lst]))
+  a = (a * 10) + b
+  b = b + 1
+
+  print(a)
